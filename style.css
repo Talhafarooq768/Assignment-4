@@ -1,0 +1,418 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    margin-top: 10px;
+    background-color: rgb(235, 231, 226);
+    width: 97%;
+    border-radius: 10px;
+    margin-left: 15px;
+    height: 445px;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    padding-top: 22px;
+    padding-left: 5px;
+}
+
+.nav ul {
+    display: flex;
+    padding-top: 20px;
+    font-size: large;
+    margin-left: 300px;
+
+}
+
+.nav li {
+    padding-left: 50px;
+    list-style: none;
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(123, 122, 120);
+    font-weight: 700;
+}
+
+.nav a:hover {
+    color: rgb(193, 193, 123);
+}
+
+.search {
+    width: 26px;
+    margin-left: 50px;
+}
+
+.get {
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(141, 102, 102);
+    width: 130px;
+    height: 35px;
+    color: white;
+    margin-left: 50px;
+}
+
+.get:hover {
+    background-color: rgb(48, 126, 100);
+}
+
+/* HERO SECTION START  */
+.text {
+    display: flex;
+    padding-left: 30px;
+}
+
+.text-1 {
+    padding-left: 20px;
+    margin-top: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 900;
+
+}
+
+.para-1 {
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(66, 56, 56);
+}
+
+.dish-img {
+    height: 280px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.shop {
+    border: none;
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.shop:hover {
+    background-color: rgb(76, 179, 131);
+    transition: 0.4s;
+}
+
+.shop-1 {
+    border: none;
+    background-color: rgb(234, 92, 92);
+    color: white;
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 30px;
+
+}
+
+.shop-1:hover {
+    background-color: red;
+    transition: 0.4s;
+}
+
+/* section 2 start here */
+.section-text {
+    width: 100%;
+    height: 120px;
+    margin-top: 30px;
+
+}
+
+.section-text {
+    padding-left: 35%;
+}
+
+.heading-text {
+    padding-left: 80px;
+}
+
+/* card section start here */
+.card-content {
+    width: 100%;
+    height: 370px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: 0.9s;
+
+}
+
+.card-1 {
+    margin-left: 20px;
+    width: 300px;
+    height: 320px;
+    border: 1px solid rgb(130, 127, 127);
+    box-shadow: 2px 2px 5px 2px lightblue;
+    border-radius: 10px;
+}
+
+
+.card-1 img {
+    margin-left: 120px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.card-1 h4 {
+    padding-left: 115px;
+    margin-top: 10px;
+    color: rgb(235, 189, 104);
+}
+
+.card-1 p {
+    padding-top: 10px;
+    padding-left: 15px;
+    justify-content: center;
+}
+
+.third-card {
+    width: auto;
+    height: 78px;
+}
+
+.btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.read-button {
+    width: 150px;
+    height: 45px;
+    border: none;
+    margin-left: 560px;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(36, 34, 34);
+}
+
+.read-button:hover {
+    background-color: green;
+    transition: 0.4s;
+}
+
+.section-3 {
+    width: 100%;
+    height: 150px;
+    padding-top: 40px;
+}
+
+.center-1 h2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(81, 75, 75);
+
+}
+
+.center-1 h6 {
+    display: flex;
+    justify-content: center;
+    color: rgb(84, 82, 82);
+}
+
+
+/* section-fourth */
+
+.fourth-section {
+    width: 100%;
+    height: 750px;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.orange {
+    width: 250px;
+    margin-left: 160px;
+    display: block;
+}
+
+.second {
+    display: flex;
+}
+
+.buy {
+    width: 140px;
+    height: 40px;
+    color: white;
+    background-color: rgb(42, 39, 39);
+    border: none;
+    border-radius: 6px;
+}
+
+.buy:hover {
+    background-color: green;
+    transition: 0.3s;
+}
+
+.third {
+    display: flex;
+    margin-top: 40px;
+}
+
+.grapes {
+    width: 80px;
+    margin-left: 260px;
+
+}
+
+.gauva {
+    width: 180px;
+    margin-left: 220px;
+
+}
+
+
+/*fifth section start here */
+.fifth {
+    width: 100%;
+    height: 600px;
+    padding-top: 70px;
+    /* display: flex; */
+}
+
+.test {
+    margin-left: 300px;
+}
+
+.test h3 {
+    margin-left: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.client-img {
+    height: 270px;
+    margin-left: 90px;
+}
+
+.client-img:hover {
+    padding: 20px;
+    transition: 0.6s;
+}
+
+.client-1 {
+    padding-left: 30px;
+}
+
+.client-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    margin-right: 150px;
+}
+
+.client-1 p {
+    padding-left: 100px;
+    color: rgb(74, 69, 69);
+}
+
+.line-break {
+    padding-left: 190px;
+}
+
+.line-break-2 {
+    padding-left: 240px;
+}
+
+.contect-section {
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 0 4rem 5rem;
+}
+
+.contect-us-text {
+    display: flex;
+    flex-direction: column;
+    height: 40rem;
+    width: 50%;
+    margin-top: 200px;
+
+}
+
+.contect-us-text h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+
+}
+
+.contect-us-text input {
+    font-size: 1.3rem;
+    border: none;
+    border-bottom: 2px solid gray;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.btn-2 {
+    width: 130px;
+    height: 40px;
+    border: none;
+    background-color: rgb(224, 79, 79);
+    border-radius: 3px;
+    color: white;
+}
+
+.btn-2:hover {
+    background-color: red;
+}
+
+/* 2nd last section start */
+.lists-2 {
+    color: rgb(65, 51, 51);
+    display: flex;
+    justify-content: space-around;
+}
+.lists-2 a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(66, 64, 64);
+}
+.icons i {
+    color: rgb(248, 248, 248);
+    background-color: black;
+    border-radius: 19px;
+    width: 40px;
+    height: 40px;
+    padding-top: 4px;
+    padding-left: 7px;
+
+}
+.icons i:hover{
+    color: blue;
+    background-color: aliceblue;
+    transition: 0.3s;
+}
+.fa-brands {
+    font-size: 30px;
+}
+/* ending section */
+.ending{
+    box-shadow: inset;
+    width: 100%;
+    height: 80px;
+    color: rgb(62, 60, 60);
+    padding-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
